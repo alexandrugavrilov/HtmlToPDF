@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPDF.WebApi", "HtmlToPDF\HtmlToPDF.WebApi.csproj", "{7E1E5F33-EB49-4B7F-89A2-D53FFD7ACB88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlToPDF.RazorViewToPDF", "RazorViewToPDF\HtmlToPDF.RazorViewToPDF.csproj", "{B0785913-C393-413F-BB0D-734E8B543C44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1E5F33-EB49-4B7F-89A2-D53FFD7ACB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1E5F33-EB49-4B7F-89A2-D53FFD7ACB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1E5F33-EB49-4B7F-89A2-D53FFD7ACB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1E5F33-EB49-4B7F-89A2-D53FFD7ACB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0785913-C393-413F-BB0D-734E8B543C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0785913-C393-413F-BB0D-734E8B543C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0785913-C393-413F-BB0D-734E8B543C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0785913-C393-413F-BB0D-734E8B543C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿@*used when called from web api controller *@
+@*@inherits RazorTemplates.Core.TemplateBase<HtmlToPDF.WebApi.Models.Invoice>*@
+@*used when called from mvc controller*@
+@model HtmlToPDF.WebApi.Models.Invoice  
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Invoice</title>
+   <style>@Model.CSS</style>
+</head>
+<body> 
+    <div> 
+        <h1 class="textcenter">@Model.Number</h1>
+    </div>
+</body>
+</html>
