@@ -10,7 +10,7 @@
 <li>
   <h3>RazorViewToPDF project</h3> that exposes :
   <ul>
-    <li>PdfGeneratorService.FromRazorTemplate() that resives the html of a razor view, compiles it and sends it to</li>
+    <li>PdfGeneratorService.FromRazorTemplate() that receives the html of a razor view, compiles it and sends it to</li>
     <li>PdfGeneratorService.FromHtml() that sends it to the NReco.PdfGenerator that generates the pdf</li>
   </ul>
 </li>
